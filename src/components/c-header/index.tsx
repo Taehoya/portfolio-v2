@@ -1,6 +1,3 @@
-import HomeIcon from '@mui/icons-material/Home';
-import WorkIcon from '@mui/icons-material/Work';
-import AppsIcon from '@mui/icons-material/Apps';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
@@ -12,10 +9,15 @@ export default function CHeader() {
     return (
         <S.Wrapper>
             <S.Container>
+                <S.Logo>
+                    <S.Title>TaehoChoi</S.Title>
+                    <S.SubTitle>태호의 스케치북</S.SubTitle>
+                </S.Logo>
+
                 <S.NavContainer>
-                    <CNavButton title="About" icon={<HomeIcon />} isActive={true} />
-                    <CNavButton title="Experience" icon={<WorkIcon />} isActive={true} />
-                    <CNavButton title="Project" icon={<AppsIcon />} isActive={true} />
+                    <CNavButton title="About" isActive={true} />
+                    <CNavButton title="Experience" isActive={true} />
+                    <CNavButton title="Project" isActive={true} />
                 </S.NavContainer>
 
                 <S.SocialContainer>
