@@ -1,12 +1,15 @@
 'use client';
 
-import CHeader from '@/components/c-header';
-import MAIN_LOGO from '@/assets/logo/logo-svg.svg';
+import CSideBar from '@/components/c-sidebar';
+import * as S from './page.styled';
 
 export default function Home() {
     return (
-        <>
-            <CHeader />
-        </>
+        <S.Container>
+            <CSideBar />
+            <S.MainContent>
+                <h1>Home</h1>
+            </S.MainContent>
+        </S.Container>
     );
 }

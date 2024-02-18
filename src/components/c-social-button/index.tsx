@@ -9,7 +9,7 @@ interface Props {
 
 export default function CSocialButton({ title, icon, href }: Props) {
     return (
-        <Link href={href}>
+        <Link href={href} target="_blank">
             <S.Container>
                 <S.Icon>{icon}</S.Icon>
                 <S.Title>{title}</S.Title>
