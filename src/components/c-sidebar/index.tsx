@@ -5,7 +5,7 @@ import CSocialButton from '@/components/c-social-button';
 import CNavButton from '@/components/c-nav-button';
 import * as S from './page.styled';
 
-export default function CHeader() {
+export default function CSideBar() {
     return (
         <S.Wrapper>
             <S.Container>
