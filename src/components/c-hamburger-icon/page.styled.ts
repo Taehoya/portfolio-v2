@@ -5,14 +5,14 @@ export const Container = styled.div`
         display: none;
     }
     width: 30px;
-    height: 50px;
+    height: 30x;
     cursor: pointer;
     transition: 0.3s ease-in-out;
     float: right;
     z-index: 9990;
     position: absolute;
     top: 30px;
-    left: 30px;
+    left: 20px;
 `;
 
 const barSettings = ($active: boolean) => css`
