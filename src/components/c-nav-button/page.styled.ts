@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Button = styled.button<{ $isActive: Boolean }>`
     color: ${({ $isActive }) => ($isActive ? 0 : 2)}px solid #ced0db;
-    font-family: '__Quicksand_05380b';
     display: flex;
     padding: 12px;
     font-weight: 300;
