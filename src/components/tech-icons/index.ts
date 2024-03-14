@@ -15,6 +15,8 @@ import {
     SiReact as ReactIcon,
     SiTestinglibrary as TestingLibraryIcon,
     SiTypescript as TypeScriptIcon,
+    SiNestjs as NestJsIcon,
+    SiGo as GoIcon,
 } from 'react-icons/si';
 
 const icons: { [key: string]: IconType } = {
@@ -33,6 +35,8 @@ const icons: { [key: string]: IconType } = {
     aws: AwsIcon,
     docker: DockerIcon,
     okta: OktaIcon,
+    nest: NestJsIcon,
+    go: GoIcon,
 };
 
 export default icons;
