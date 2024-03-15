@@ -5,7 +5,7 @@ export const Container = styled.div`
         display: none;
     }
     width: 30px;
-    height: 30x;
+    height: 30px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
     float: right;
