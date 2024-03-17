@@ -1,18 +1,16 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-// import Image from "next/image";
 
 export const Container = styled.div`
-    width: 408px;
+    width: 350px;
     position: relative;
     overflow: hidden;
-    /* background-color: #fff; */
     border-radius: 25px;
     box-shadow: 4px 12px 30px 6px rgba(0, 0, 0, 0.09);
     cursor: pointer;
 
-    @media screen and (max-width: 1441px) {
-        width: 280px;
+    @media screen and (max-width: 1600px) {
+        width: 300px;
     }
 
     @media screen and (max-width: 904px) {
@@ -31,13 +29,11 @@ export const Content = styled.div`
     justify-content: center;
     padding: 20px;
     height: 300px;
-    /* min-height: 250px; */
 `;
 
 export const TitleContainer = styled(motion.div)`
     z-index: 1;
     position: relative;
-    /* color: #fff; */
 `;
 
 export const Title = styled.div`
@@ -53,9 +49,6 @@ export const ThumbNailContainer = styled.div`
 export const Thumbnail = styled.div`
     height: 300px;
     margin-top: 20px;
-    /* position: relative; */
-    /* position: absolute;
-    bottom: 0; */
 `;
 
 export const Image = styled.img`

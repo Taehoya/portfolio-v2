@@ -4,7 +4,6 @@ import StyledComponentsRegistry from '@/lib/registry';
 import { GlobalStyle } from '@/styles/GlobalStyle';
 import { theme } from '@/styles/theme';
 import { ThemeProvider } from 'styled-components';
-import localFont from 'next/font/local';
 import { Quicksand } from 'next/font/google';
 
 const font = Quicksand({

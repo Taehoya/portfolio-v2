@@ -6,11 +6,10 @@ export const Wrapper = styled.div`
 `;
 
 export const Container = styled(motion.nav)<{ $active: boolean }>`
-    position: fixed;
-    min-width: 230px;
+    width: 320px;
     height: 100vh;
     max-height: 100vh;
-    min-width: 200px;
+    position: fixed;
     background-color: aliceblue;
     flex-direction: column;
     z-index: 2;
