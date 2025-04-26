@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/tchoi/Desktop/dev/portfolio-v2/src/app/layout":[]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
